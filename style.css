@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.top{
+    margin-top: 25px;
+    width: 300px;
+    height: 400px;
+    background-color: #76ABAE;
+   border-radius: 5px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   color: white;
+} 
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+hr{
+    margin-top: 10px;
+    border: 1px solid red;
+}
+.information{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.information input{
+    border: none;
+    border-bottom: 2px solid red;
+    background-color: rgba(231, 215, 238, 0.24);
+}
+.para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.para a{
+    text-decoration: none;
+    color: black;
+}
+.login{
+    margin-left: 20px;
+    width: 250px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    border: 1.5px solid black;
+}
+.login a{
+        text-decoration: none;
+}
+.tail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tail p{
+    font-size: 15px;
+}
+.tail a{
+    margin-left: 5px;
+    color: black;
+    text-decoration: none;
+}
